@@ -47,7 +47,7 @@ $bare-tiles--4:					false !default;
 
 @media (min-width: bareMedia($bare-bp-s)) {
 
-	.tiles {
+	.#{$bare-ns}tiles {
 		> li {
 			float: left;
 		}
@@ -63,7 +63,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-s)) {
 
-		.tiles--2 {
+		.#{$bare-ns}tiles--2 {
 			> li { 
 				width: 100%; 
 			}
@@ -81,7 +81,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-s)) {
 
-		.tiles--3 {
+		.#{$bare-ns}tiles--3 {
 			> li { 
 				width: 50%; 
 			}
@@ -91,7 +91,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-m)) {
 
-		.tiles--3 {
+		.#{$bare-ns}tiles--3 {
 			> li { 
 				width: 33.3%; 
 			}
@@ -109,7 +109,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-s)) {
 
-		.tiles--4 {
+		.#{$bare-ns}tiles--4 {
 			> li { 
 				width: 50%; 
 			}
@@ -119,7 +119,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-m)) {
 
-		.tiles--4 {
+		.#{$bare-ns}tiles--4 {
 			> li { 
 				width: 33.3%; 
 			}
@@ -129,7 +129,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-l)) {
 
-		.tiles--4 {
+		.#{$bare-ns}tiles--4 {
 			> li { 
 				width: 25%; 
 			}
