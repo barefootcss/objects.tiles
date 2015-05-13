@@ -22,7 +22,7 @@ Import into project:
 
 **tiles--2**
 
-The `tiles--2` option creates across 2 colums.
+The `tiles--2` option creates across 2 columns.
 
 	<ul class="tiles tiles--2">
 		<li></li>
@@ -32,7 +32,7 @@ The `tiles--2` option creates across 2 colums.
 
 **tiles--3**
 
-The `tiles--3` option creates 3 colums.
+The `tiles--3` option creates 3 columns.
 
 	<ul class="tiles tiles--3">
 		<li></li>
@@ -42,7 +42,7 @@ The `tiles--3` option creates 3 colums.
 
 **tiles--4**
 
-The `tiles--4` option creates 4 colums.
+The `tiles--4` option creates 4 columns.
 
 	<ul class="tiles tiles--4">
 		<li></li>
