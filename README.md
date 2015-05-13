@@ -12,11 +12,11 @@ The `tiles` object creates tiled navigation lists that can wrap columns.
 
 Install using Bower:
 
-	$ bower --save bare-alignment
+	$ bower --save bare-tiles
 
 Import into project:
 
-	@import "bower_components/bare-alignment/trumps.alignment";
+	@import "bower_components/bare-tiles/objects.tiles";
 
 ## Options
 
