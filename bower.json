@@ -17,7 +17,7 @@
   "dependencies": {
     "bare-defaults": "~0.1.0",
     "bare-functions": "~0.1.0",    
-    "bare-clearfix": "~0.1.0",    
+    "bare-clearfix": "~0.1.0"   
   }
 }
   
