@@ -1,0 +1,140 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+//
+// Features:
+//
+
+$bare-tiles--2:					false !default;
+$bare-tiles--3:					false !default;
+$bare-tiles--4:					false !default;
+
+/* 
+   #tiles
+   ========================================================================== */
+
+/**
+ * The tiles object creates tiled navigation lists that can wrap columns.
+ *
+ * Usage:
+ *
+ * <ul class="tiles">
+ *     <li><a href="#"></a></li>
+ *     <li><a href="#"></a></li>
+ *     <li><a href="#"></a></li>
+ * </ul>
+ */
+
+.#{$bare-ns}tiles {
+	@extend %bare-cf;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	> li {
+		width: 100%;
+
+		> a {
+			float: left;
+		}
+	}
+}
+
+//
+// @media: Float tile items left.
+//
+
+@media (min-width: bareMedia($bare-bp-s)) {
+
+	.tiles {
+		> li {
+			float: left;
+		}
+	}
+
+}
+
+// 
+// #tiles--2
+// ========================================================================== 
+
+@if ($bare-tiles--2 == true) {
+
+	@media (min-width: bareMedia($bare-bp-s)) {
+
+		.tiles--2 {
+			> li { 
+				width: 100%; 
+			}
+		}
+	
+	}
+
+}
+
+// 
+// #tiles--3
+// ========================================================================== 
+
+@if ($bare-tiles--3 == true) {
+
+	@media (min-width: bareMedia($bare-bp-s)) {
+
+		.tiles--3 {
+			> li { 
+				width: 50%; 
+			}
+		}
+	
+	}
+
+	@media (min-width: bareMedia($bare-bp-m)) {
+
+		.tiles--3 {
+			> li { 
+				width: 33.3%; 
+			}
+		}
+	
+	}
+
+}
+
+// 
+// #tiles--4
+// ========================================================================== 
+
+@if ($bare-tiles--4 == true) {
+
+	@media (min-width: bareMedia($bare-bp-s)) {
+
+		.tiles--4 {
+			> li { 
+				width: 50%; 
+			}
+		}
+	
+	}
+
+	@media (min-width: bareMedia($bare-bp-m)) {
+
+		.tiles--4 {
+			> li { 
+				width: 33.3%; 
+			}
+		}
+	
+	}
+
+	@media (min-width: bareMedia($bare-bp-l)) {
+
+		.tiles--4 {
+			> li { 
+				width: 25%; 
+			}
+		}
+	
+	}
+
+}
