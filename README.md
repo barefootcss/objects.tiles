@@ -1,6 +1,6 @@
 #Tiles Object
 
-The tiles object creates tiled navigation lists that can wrap columns.
+The `tiles` object creates tiled navigation lists that can wrap columns.
 
 	<ul class="tiles">
 		<li><a href="#"></a></li>
