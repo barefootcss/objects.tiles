@@ -12,7 +12,7 @@ The `tiles` object creates tiled navigation lists that can wrap columns.
 
 Install using Bower:
 
-	$ bower --save bare-tiles
+	$ bower install --save bare-tiles
 
 Import into project:
 
