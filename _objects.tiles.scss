@@ -19,14 +19,14 @@ $bare-tiles--4:					false !default;
  *
  * Usage:
  *
- * <ul class="tiles">
+ * <ul class="o-tiles">
  *     <li><a href="#"></a></li>
  *     <li><a href="#"></a></li>
  *     <li><a href="#"></a></li>
  * </ul>
  */
 
-.#{$bare-ns}tiles {
+.o-tiles {
 	@extend %bare-cf;
 	margin: 0;
 	padding: 0;
@@ -37,13 +37,9 @@ $bare-tiles--4:					false !default;
 	}
 }
 
-//
-// @media: Float tile items left.
-//
-
 @media (min-width: bareMedia($bare-bp-s)) {
 
-	.#{$bare-ns}tiles {
+	.o-tiles {
 		> li {
 			float: left;
 		}
@@ -59,7 +55,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-s)) {
 
-		.#{$bare-ns}tiles--2 {
+		.o-tiles--2 {
 			> li { 
 				width: 50%; 
 			}
@@ -77,7 +73,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-s)) {
 
-		.#{$bare-ns}tiles--3 {
+		.o-tiles--3 {
 			> li { 
 				width: 50%; 
 			}
@@ -87,7 +83,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-m)) {
 
-		.#{$bare-ns}tiles--3 {
+		.o-tiles--3 {
 			> li { 
 				width: 33.3%; 
 			}
@@ -105,7 +101,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-s)) {
 
-		.#{$bare-ns}tiles--4 {
+		.o-tiles--4 {
 			> li { 
 				width: 50%; 
 			}
@@ -115,7 +111,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-m)) {
 
-		.#{$bare-ns}tiles--4 {
+		.o-tiles--4 {
 			> li { 
 				width: 33.3%; 
 			}
@@ -125,7 +121,7 @@ $bare-tiles--4:					false !default;
 
 	@media (min-width: bareMedia($bare-bp-l)) {
 
-		.#{$bare-ns}tiles--4 {
+		.o-tiles--4 {
 			> li { 
 				width: 25%; 
 			}
