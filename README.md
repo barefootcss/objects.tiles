@@ -2,7 +2,7 @@
 
 The `tiles` object creates tiled navigation lists that can wrap columns.
 
-	<ul class="tiles">
+	<ul class="o-tiles">
 		<li><a href="#"></a></li>
 		<li><a href="#"></a></li>
 		<li><a href="#"></a></li>
@@ -24,7 +24,7 @@ Import into project:
 
 The `tiles--2` option creates across 2 columns.
 
-	<ul class="tiles tiles--2">
+	<ul class="o-tiles o-tiles--2">
 		<li></li>
 		<li></li>
 		<li></li>
@@ -34,7 +34,7 @@ The `tiles--2` option creates across 2 columns.
 
 The `tiles--3` option creates 3 columns.
 
-	<ul class="tiles tiles--3">
+	<ul class="o-tiles o-tiles--3">
 		<li></li>
 		<li></li>
 		<li></li>
@@ -44,7 +44,7 @@ The `tiles--3` option creates 3 columns.
 
 The `tiles--4` option creates 4 columns.
 
-	<ul class="tiles tiles--4">
+	<ul class="o-tiles o-tiles--4">
 		<li></li>
 		<li></li>
 		<li></li>
